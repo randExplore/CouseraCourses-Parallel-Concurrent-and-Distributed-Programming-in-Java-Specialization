@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: edu.coursera.concurrent.ListSetTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2,791.08 sec <<< FAILURE! - in edu.coursera.concurrent.ListSetTest
+testReadWriteLocksRandomLarge(edu.coursera.concurrent.ListSetTest)  Time elapsed: 875.451 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: Expected add throughput improvement to be at least 0.500000x with read-write locks, but found 0.495863x
+	at junit.framework.Assert.fail(Assert.java:47)
+	at junit.framework.Assert.assertTrue(Assert.java:20)
+	at edu.coursera.concurrent.ListSetTest.testReadWriteLocksHelper(ListSetTest.java:219)
+	at edu.coursera.concurrent.ListSetTest.testReadWriteLocksRandomLarge(ListSetTest.java:85)
+
